@@ -1,27 +1,16 @@
-# native_audio_controller
+# native_audio_controller_example
 
-A Flutter plugin to handle pause/play for running music in background from another app
+Demonstrates how to use the native_audio_controller plugin.
 
-## Supported Platforms
+## Getting Started
 
-- Android: Fully supported
-- iOS: Under development (not yet implemented)
+This project is a starting point for a Flutter application.
 
-### Usage 
-```dart
-import 'package:native_audio_controller/native_audio_controller.dart';
+A few resources to get you started if this is your first Flutter project:
 
-final _nativeAudioControllerPlugin = NativeAudioController();
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-// Pause a background music from other app
-_nativeAudioControllerPlugin.pauseAudio();
-
-// Resume the music
-_nativeAudioControllerPlugin.resumeAudio();   
-```
-## Setup, permissions
-
-### Android
-```xml
-<uses-permission android:name="android.permission.BROADCAST_STICKY" />
-```
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
