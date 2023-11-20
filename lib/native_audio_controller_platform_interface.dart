@@ -22,8 +22,12 @@ abstract class NativeAudioControllerPlatform extends PlatformInterface {
     PlatformInterface.verifyToken(instance, _token);
     _instance = instance;
   }
+  
+  Future<String?> pauseAudio() {
+    throw UnimplementedError('platformVersion() has not been implemented.');
+  }
 
-  Future<String?> getPlatformVersion() {
+  Future<String?> resumeAudio() {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
 }
