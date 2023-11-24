@@ -1,10 +1,11 @@
 name: native_audio_controller
-description: A new Flutter plugin project.
-version: 0.0.1
-homepage:
+description: A Flutter plugin to handle pause/play for running music in background from another app
+version: 0.0.1+1
+homepage: https://github.com/tglRazaf/flutter-native-music-controller.git
+repository: https://github.com/tglRazaf/flutter-native-music-controller.git
 
 environment:
-  sdk: '>=2.19.5 <3.0.0'
+  sdk: '>=2.19.5 <4.0.0'
   flutter: ">=2.5.0"
 
 dependencies:
@@ -25,3 +26,6 @@ flutter:
         pluginClass: NativeAudioControllerPlugin
       ios:
         pluginClass: NativeAudioControllerPlugin
+
+platforms:
+  android:

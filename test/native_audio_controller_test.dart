@@ -1,5 +1,4 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:native_audio_controller/native_audio_controller.dart';
 import 'package:native_audio_controller/native_audio_controller_platform_interface.dart';
 import 'package:native_audio_controller/native_audio_controller_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';

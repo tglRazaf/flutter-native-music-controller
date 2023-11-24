@@ -8,7 +8,8 @@ abstract class NativeAudioControllerPlatform extends PlatformInterface {
 
   static final Object _token = Object();
 
-  static NativeAudioControllerPlatform _instance = MethodChannelNativeAudioController();
+  static NativeAudioControllerPlatform _instance =
+      MethodChannelNativeAudioController();
 
   /// The default instance of [NativeAudioControllerPlatform] to use.
   ///
@@ -22,7 +23,7 @@ abstract class NativeAudioControllerPlatform extends PlatformInterface {
     PlatformInterface.verifyToken(instance, _token);
     _instance = instance;
   }
-  
+
   Future<String?> pauseAudio() {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
